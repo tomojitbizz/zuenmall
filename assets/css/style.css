@@ -11831,7 +11831,7 @@ button:focus {
 
 .entry-media {
   position: relative;
-  background-color: #ccc;
+  /* background-color: #ccc; */
   margin-bottom: 2.4rem; }
   .entry-media > a {
     position: relative;
