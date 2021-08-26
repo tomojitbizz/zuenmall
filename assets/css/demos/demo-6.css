@@ -452,10 +452,11 @@
   text-transform: uppercase; }
 
 .footer {
-  background-color: #222;
+  background-color: orange;
   font-size: 1.3rem;
   font-weight: 400;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+color: #fff; }
   .footer .social-icon {
     border: none; }
     .footer .social-icon:hover, .footer .social-icon:focus {
@@ -468,7 +469,8 @@
     font-size: 1.3rem;
     font-weight: 400;
     line-height: 2em;
-    margin-bottom: 1.8rem; }
+    margin-bottom: 1.8rem;
+  color: #fff; }
   .footer .widget-about-info a {
     color: #cc9966; }
   .footer .widget-title {
@@ -488,7 +490,8 @@
 .footer-copyright {
   margin-top: 2.2rem;
   font-size: 1.3rem;
-  font-weight: 400; }
+  font-weight: 400;
+color: #fff; }
 
 .footer-bottom .container {
   flex-direction: column;

@@ -91,22 +91,24 @@
             <div class="header-middle">
                 <div class="container">
                     <div class="header-left">
-                        <div class="header-search header-search-extended header-search-visible d-none d-lg-block">
-                            <a href="#" class="search-toggle" role="button"><i class="icon-search"></i></a>
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo.png" alt="logo" class="img-fluid" width="200" height="70">
+                        </a>
+                     
+                    </div>
+                    <div class="header-center">
+                        <div class="header-search header-search-extended header-search-visible header-search-no-radius d-lg-block">
+                            
                             <form action="#" method="get">
                                 <div class="header-search-wrapper search-wrapper-wide">
                                     <label for="q" class="sr-only">Search</label>
-                                    <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
-                                    <input type="search" class="form-control" name="q" id="q" placeholder="Search product ..." required>
+                                    <input type="search" class="form-control" name="q" id="q" placeholder="Search product ..." required="">
+                                    <button class="btn btn-primary" type="submit">Search</button>
                                 </div><!-- End .header-search-wrapper -->
                             </form>
                         </div><!-- End .header-search -->
                     </div>
-                    <div class="header-center">
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png" alt="logo" class="img-fluid" width="200" height="70">
-                        </a>
-                    </div><!-- End .header-left -->
+                    
 
                     <div class="header-right">
                        
@@ -196,43 +198,263 @@
                 </div><!-- End .container -->
             </div><!-- End .header-bottom -->
         </header><!-- End .header -->
+        <div class="container-fluid">
+            <div class="mobile-serach">
+                <form action="#">
+                    <div class="input-group input-group-round">
+                        <input type="email" class="form-control form-control-white" placeholder="Search here...." aria-label="" required="">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit" style="min-width: 0;"><span>Search</span></button>
+                        </div><!-- .End .input-group-append -->
+                    </div><!-- .End .input-group -->
+                </form>
+            </div>
+        </div>
+        
 
         <main class="main">
-            <div class="intro-slider-container">
-                <div class="intro-slider owl-carousel owl-theme owl-nav-inside owl-light" data-toggle="owl" data-owl-options='{
-                        "dots": false,
-                        "nav": false, 
-                        "responsive": {
-                            "992": {
-                                "nav": true
+            <div class="container-fluid mt-1">
+                <div class="row">
+                    <div class="col-md-3 mob-none">
+                        <div class="dropdown category-dropdown show is-on" data-visible="true">
+                            <a href="#" class="dropdown-toggle btn-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-display="static" title="Browse Categories">
+                                Browse Categories
+                            </a>
+    
+                            <div class="dropdown-menu show">
+                                <nav class="side-nav">
+                                    <ul class="menu-vertical sf-arrows sf-js-enabled" style="touch-action: pan-y;">
+                                        <li class="megamenu-container">
+                                            <a class="sf-with-ul" href="#">Home Life</a>
+    
+                                            <div class="megamenu" style="display: none;">
+                                                <div class="row no-gutters">
+                                                    <div class="col-md-8">
+                                                        <div class="menu-col">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="menu-title">Hardware tools</div><!-- End .menu-title -->
+                                                                    <ul>
+                                                                        <li><a href="#">Hardware tools 1</a></li>
+                                                                        <li><a href="#">Hardware tools 2</a></li>
+                                                                        <li><a href="#">Hardware tools 3</a></li>
+                                                                        
+                                                                    </ul>
+    
+                                                                    <div class="menu-title">Residential furniture</div><!-- End .menu-title -->
+                                                                    <ul>
+                                                                        <li><a href="#">Residential furniture 1</a></li>
+                                                                        <li><a href="#">Residential furniture 1</a></li>
+                                                                        <li><a href="#">Residential furniture 1</a></li>
+                                                                        <li><a href="#">Residential furniture 1</a></li>
+                                                                       
+                                                                    </ul>
+                                                                </div><!-- End .col-md-6 -->
+    
+                                                                <div class="col-md-6">
+                                                                    <div class="menu-title">Tableware</div><!-- End .menu-title -->
+                                                                    <ul>
+                                                                        <li><a href="#">Tableware 1</a></li>
+                                                                        <li><a href="#">Tableware 2</a></li>
+                                                                        <li><a href="#">Tableware 3</a></li>
+                                                                        <li><a href="#">Tableware 4</a></li>
+
+                                                                        
+                                                                    </ul>
+    
+                                                                    <div class="menu-title">Home Fabric</div><!-- End .menu-title -->
+                                                                    <ul>
+                                                                        <li><a href="#">Home Fabric1</a></li>
+                                                                        <li><a href="#">Home Fabric2</a></li>
+                                                                        <li><a href="#">Home Fabric3</a></li>
+                                                                        
+                                                                    </ul>
+                                                                </div><!-- End .col-md-6 -->
+                                                               
+                                                                
+                                                            </div><!-- End .row -->
+                                                        </div><!-- End .menu-col -->
+                                                    </div><!-- End .col-md-8 -->
+    
+                                                    <div class="col-md-4">
+                                                        <div class="border-image">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <img src="assets/images/product1.jpg" alt="">
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <img src="assets/images/product2.jpeg" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div><!-- End .banner banner-overlay -->
+                                                    </div><!-- End .col-md-4 -->
+                                                </div><!-- End .row -->
+                                            </div><!-- End .megamenu -->
+                                        </li>
+                                        <li><a href="#">Bag & Accessories</a></li>
+                                        <li><a href="#">Outdoor Sport</a></li>
+                                        <li><a href="#">Car /Virtual</a></li>
+                                       
+                                    </ul><!-- End .menu-vertical -->
+                                </nav><!-- End .side-nav -->
+                            </div><!-- End .dropdown-menu -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="intro-slider-container mobile-margin">
+                            <div class="intro-slider owl-carousel owl-theme owl-nav-inside owl-light" data-toggle="owl" data-owl-options='{
+                                    "dots": false,
+                                    "nav": false, 
+                                    "responsive": {
+                                        "992": {
+                                            "nav": true
+                                        }
+                                    }
+                                }'>
+                                <div class="intro-slide" style="background-image: url(assets/images/banner1.jpg);">
+                                    <div class="container intro-content text-center">
+                                        <h3 class="intro-subtitle text-white">zuenmall</h3><!-- End .h3 intro-subtitle -->
+                                        <h1 class="intro-title text-white">Delicious Food </h1><!-- End .intro-title -->
+            
+                                        <a href="#" class="btn btn-outline-white-4">
+                                            <span>Discover More</span>
+                                        </a>
+                                    </div><!-- End .intro-content -->
+                                </div><!-- End .intro-slide -->
+            
+                                <div class="intro-slide" style="background-image: url(assets/images/banner2.jpg);">
+                                    <div class="container intro-content text-center">
+                                        <h3 class="intro-subtitle text-white">Zunemall</h3><!-- End .h3 intro-subtitle -->
+                                        <h1 class="intro-title text-white">Afordable price</h1><!-- End .intro-title -->
+            
+                                        <a href="#" class="btn btn-outline-white-4">
+                                            <span>Discover More</span>
+                                        </a>
+                                    </div><!-- End .intro-content -->
+                                </div><!-- End .intro-slide -->
+                            </div><!-- End .intro-slider owl-carousel owl-theme -->
+            
+                            <span class="slider-loader"></span><!-- End .slider-loader -->
+                        </div><!-- End .intro-slider-container -->
+                    </div>
+                    <div class="col-md-3 mob-none">
+                        <div class="user-profile">
+                            <img src="assets/images/user-image.jpg" alt="">
+                            <p>Jhon Doe</p>
+                        <a href="#" class="btn btn-primary">LOGIN</a>
+                        <a href="#" class="btn btn-primary">Receive</a>
+                        </div>
+                       
+                            <div class="widget widget-products mt-2">
+                                <h4 class="widget-title"><span>Exclusive member service</span></h4><!-- End .widget-title -->
+
+                                <div class="products">
+                                   
+                                   <div class="product product-sm">
+                                        <figure class="product-media">
+                                            <a href="#">
+                                                <img src="assets/images/meat.png" alt="Product image" class="product-image">
+                                            </a>
+                                        </figure>
+
+                                        <div class="product-body">
+                                            <h5 class="product-title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </a></h5><!-- End .product-title -->
+                                            <div class="product-price">
+                                                $49.99
+                                            </div><!-- End .product-price -->
+                                        </div><!-- End .product-body -->
+                                    </div><!-- End .product product-sm -->
+
+                                    <div class="product product-sm">
+                                        <figure class="product-media">
+                                            <a href="#">
+                                                <img src="assets/images/meat.png" alt="Product image" class="product-image">
+                                            </a>
+                                        </figure>
+
+                                        <div class="product-body">
+                                            <h5 class="product-title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </a></h5><!-- End .product-title -->
+                                            <div class="product-price">
+                                                $49.99
+                                            </div><!-- End .product-price -->
+                                        </div><!-- End .product-body -->
+                                    </div><!-- End .product product-sm -->
+
+                                    <div class="product product-sm">
+                                        <figure class="product-media">
+                                            <a href="#">
+                                                <img src="assets/images/meat.png" alt="Product image" class="product-image">
+                                            </a>
+                                        </figure>
+
+                                        <div class="product-body">
+                                            <h5 class="product-title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </a></h5><!-- End .product-title -->
+                                            <div class="product-price">
+                                                $49.99
+                                            </div><!-- End .product-price -->
+                                        </div><!-- End .product-body -->
+                                    </div><!-- End .product product-sm -->
+                                </div><!-- End .products -->
+                            </div><!-- End .widget widget-products -->
+                      
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="banner-group-1 mt-5 mb-4">
+                <div class="container">
+                    <div class="owl-carousel owl-simple rows cols-1 cols-sm-2 cols-lg-3 owl-loaded owl-drag" data-toggle="owl" data-owl-options="{
+                        &quot;nav&quot;: false, 
+                        &quot;dots&quot;: true,
+                        &quot;margin&quot;: 10,
+                        &quot;loop&quot;: false,
+                        &quot;responsive&quot;: {
+                            &quot;0&quot;: {
+                                &quot;items&quot;:1
+                            },
+                            &quot;576&quot;: {
+                                &quot;items&quot;:2
+                            },
+                            &quot;992&quot;: {
+                                &quot;items&quot;:2
                             }
                         }
-                    }'>
-                    <div class="intro-slide" style="background-image: url(assets/images/banner1.jpg);">
-                        <div class="container intro-content text-center">
-                            <h3 class="intro-subtitle text-white">zuenmall</h3><!-- End .h3 intro-subtitle -->
-                            <h1 class="intro-title text-white">Delicious Food </h1><!-- End .intro-title -->
-
-                            <a href="#" class="btn btn-outline-white-4">
-                                <span>Discover More</span>
+                    }">
+                        
+                        
+                        
+                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0.4s ease 0s; width: 1410px;"><div class="owl-item active" style="width: 460px; margin-right: 10px;"><div class="banner mb-0">
+                            <a href="#">
+                                <img src="assets/images/slider-1.jpg" width="460" height="210">
                             </a>
-                        </div><!-- End .intro-content -->
-                    </div><!-- End .intro-slide -->
-
-                    <div class="intro-slide" style="background-image: url(assets/images/banner2.jpg);">
-                        <div class="container intro-content text-center">
-                            <h3 class="intro-subtitle text-white">Zunemall</h3><!-- End .h3 intro-subtitle -->
-                            <h1 class="intro-title text-white">Afordable price</h1><!-- End .intro-title -->
-
-                            <a href="#" class="btn btn-outline-white-4">
-                                <span>Discover More</span>
+                            <div class="banner-content p-3">
+                                <h5 class="banner-subtitle font-weight-normal text-light mb-1"></h5>
+                                <h3 class="banner-title font-weight-bold text-white">Organic Fresh Fruits<br>Get 25% Off</h3>
+                                <a href="#" class="banner-link text-decoration-none text-dark">Shop Now<i class="icon-angle-right"></i></a>
+                            </div>
+                        </div></div><div class="owl-item active" style="width: 460px; margin-right: 10px;"><div class="banner mb-0">
+                            <a href="#">
+                                <img src="assets/images/slider-2.jpg" width="460" height="210">
                             </a>
-                        </div><!-- End .intro-content -->
-                    </div><!-- End .intro-slide -->
-                </div><!-- End .intro-slider owl-carousel owl-theme -->
-
-                <span class="slider-loader"></span><!-- End .slider-loader -->
-            </div><!-- End .intro-slider-container -->
+                            <div class="banner-content p-3">
+                                <h5 class="banner-subtitle font-weight-normal text-light mb-1"></h5>
+                                <h3 class="banner-title font-weight-bold text-white">Super Food Bundle<br>From $45.99</h3>
+                                <a href="#" class="banner-link text-decoration-none text-dark">Shop Now<i class="icon-angle-right"></i></a>
+                            </div>
+                        </div></div><div class="owl-item active" style="width: 460px; margin-right: 10px;"><div class="banner mb-0">
+                            <a href="#">
+                                <img src="assets/images/slider-3.jpg" width="460" height="210">
+                            </a>
+                            <div class="banner-content p-3">
+                                <h5 class="banner-subtitle font-weight-normal text-light mb-1"></h5>
+                                <h3 class="banner-title font-weight-bold text-white">Save Now<br>Detox &amp; Diuretics</h3>
+                                <a href="#" class="banner-link text-decoration-none text-dark">Shop Now<i class="icon-angle-right"></i></a>
+                            </div>
+                        </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><i class="icon-angle-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="icon-angle-right"></i></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></div>
+                </div>
+            </div>
+        
+     
 
             <div class="pt-5 pb-3" style="background-color: #fff;">
                 <div class="container">
@@ -240,7 +462,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                   <a href="#"><img src="assets/images/shrimp.png" alt=""></a> 
+                                   <a href="#"><img src="assets/images/seafood.png" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"> <a href="#">Seafood</a> </h3><!-- End .icon-box-title -->
@@ -264,7 +486,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/vegetables.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/Apple.png" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"> <a href="#">Vegetable & Fruit</a> </h3><!-- End .icon-box-title -->
@@ -276,7 +498,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/delicious.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/quick-and-delicious.png" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"> <a href="#">Quick & Delicious</a> </h3><!-- End .icon-box-title -->
@@ -289,7 +511,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/snack.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/snacks.png" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"> <a href="#">Preferred Snacks</a></h3><!-- End .icon-box-title -->
@@ -301,7 +523,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/baby-food.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/nourishment.png" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"><a href="#">Nourishment</a></h3><!-- End .icon-box-title -->
@@ -325,7 +547,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/wine.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/drinks.png" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"><a href="#">Drinks</a></h3><!-- End .icon-box-title -->
@@ -340,7 +562,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/brain.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/body-and-mind.png" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"><a href="#">Body & Mind</a></h3><!-- End .icon-box-title -->
@@ -352,7 +574,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/lion-dance.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/Autumun-festival.png" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"><a href="#">Love For Mid Autumn Festival</a></h3><!-- End .icon-box-title -->
@@ -364,7 +586,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/japan.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/japan.jpg" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"><a href="#">Featured In Japan</a></h3><!-- End .icon-box-title -->
@@ -375,7 +597,7 @@
                         <div class="col-lg-3 col-sm-6 col-6">
                             <div class="icon-box text-center">
                                 <span class="icon-box-icon">
-                                    <a href="#"><img src="assets/images/south-korea.png" alt=""></a> 
+                                    <a href="#"><img src="assets/images/korea.jpg" alt=""></a> 
                                 </span>
                                 <div class="icon-box-content">
                                     <h3 class="icon-box-title"><a href="#">Korea Featured</a></h3><!-- End .icon-box-title -->
@@ -387,12 +609,7 @@
                 </div><!-- End .container -->
             </div><!-- End .bg-light pt-2 pb-2 -->
      
-<section class="zuen-offer mt-4 ml-auto mr-auto">
-    <div class="container">
-        <img src="assets/images/offer.jpg" alt="" class="img-fluid ml-auto mr-auto">
-    </div>
-    
-</section>
+
             <div class="mb-5"></div><!-- End .mb-5 -->         
 
             

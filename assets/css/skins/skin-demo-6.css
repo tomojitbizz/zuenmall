@@ -64,8 +64,8 @@ a:focus {
 /* generated with mixins */
 .btn-primary {
   color: #fff;
-  background-color: #cc9966;
-  border-color: #cc9966;
+  background-color: orange;
+  border-color: orange;
   box-shadow: none; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -449,10 +449,10 @@ a:focus {
   color: #cc9966; }
 
 .product-title a:hover, .product-title a:focus {
-  color: #cc9966; }
+  color: orange; }
 
 .product-price {
-  color: #cc9966; }
+  color: orange; }
 
 .product-label.label-primary {
   background-color: #cc9966; }
@@ -475,9 +475,9 @@ a:focus {
     box-shadow: 0 1px 0 0 #cc9966; }
 
 .btn-product-icon {
-  color: #cc9966; }
+  color: orange; }
   .btn-product-icon:hover, .btn-product-icon:focus {
-    background-color: #cc9966; }
+    background-color: orange; }
 
 .product-body .btn-wishlist:hover, .product-body .btn-wishlist:focus {
   color: #cc9966; }
@@ -498,8 +498,8 @@ a:focus {
   .product.product-7 .btn-product span {
     color: #cc9966; }
   .product.product-7 .btn-product:hover, .product.product-7 .btn-product:focus {
-    background-color: #cc9966;
-    border-bottom-color: #cc9966; }
+    background-color: orange;
+    border-bottom-color: orange; }
 
 .product.product-8 .new-price {
   color: #cc9966; }
@@ -554,7 +554,7 @@ a:focus {
   color: #cc9966; }
 
 .cart-dropdown .cart-count {
-  background-color: #cc9966; }
+  background-color: orange; }
 .cart-dropdown .product-title a:hover, .cart-dropdown .product-title a:focus {
   color: #cc9966; }
 
@@ -592,7 +592,7 @@ a:focus {
   background-color: #cc9966; }
 .category-dropdown.show .dropdown-toggle {
   color: #fff;
-  background-color: #cc9966; }
+  background-color: orange; }
 .category-dropdown .dropdown-item:hover, .category-dropdown .dropdown-item:focus {
   color: #cc9966; }
 
@@ -939,6 +939,6 @@ a:focus {
   opacity: 1; }
 
 .newsletter-popup-container .banner-title span {
-  color: #cc9966; }
+  color: orange; }
 
 /*# sourceMappingURL=skin-demo-6.css.map */

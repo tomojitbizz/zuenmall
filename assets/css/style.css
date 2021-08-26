@@ -72,7 +72,9 @@ body {
   .mob-footer{
     display:none;
   }
-
+.mobile-serach{
+  display:none;
+}
 ::-moz-selection {
   color: #fff;
   background-color: #cc9966; }
@@ -1016,7 +1018,7 @@ blockquote {
       margin: 0 !important; }
 
 .header-search-extended {
-  margin-right: 19rem;
+  /* margin-right: 19rem; */
   width: 100%;
   max-width: 570px;
   margin-top: 2.2rem;
@@ -1294,6 +1296,12 @@ blockquote {
       flex: 0 0 50px;
       max-width: 50px; } }
 @media screen and (max-width: 991px) {
+  .mobile-margin{
+    margin-top: 55px;
+  }
+  .mobile-serach{
+    display: block;
+  }
   .top-menu:not(.top-link-menu) {
     display: flex;
     align-items: center;
@@ -1353,7 +1361,7 @@ blockquote {
     left: 0; }
 
   .header-search {
-    display: none; }
+    display: block; }
 
   .header-search-extended {
     margin-right: 0; }
@@ -1371,11 +1379,16 @@ blockquote {
     display: block; }
   .header-search-visible .header-search-wrapper {
     position: absolute;
-    right: -10rem;
+    margin-top: 30px;
+    left: 30px;
     top: 100%;
-    margin-top: .8rem;
-    display: none;
-    border-width: .4rem; }
+    margin-top: 0;
+    /* display: none; */
+    border-width: .4rem;
+   }
+    .header-6 .header-search .search-wrapper-wide{
+      width:200px !important;
+    }
     .header-search-visible .header-search-wrapper:before {
       content: '';
       display: block;
@@ -1759,7 +1772,12 @@ blockquote {
       border: none;
       font-size: 2.3rem;
       line-height: 1;
-      margin-left: 6.7rem; }
+      margin-left: 14.7rem; }
+      .border-image img{
+        border: 1px solid orange;
+        padding: 5px;
+        margin-top: 15px;
+      }
     .category-dropdown .dropdown-toggle:before {
       content: '';
       display: block;
@@ -2735,7 +2753,7 @@ p {
   .header-6 .compare-dropdown:focus .cart-txt {
     color: #cc9966; }
 .header-6 .header-bottom {
-  background-color: #222; }
+  background-color: orange; }
   .header-6 .header-bottom .menu > li + li {
     margin-left: .6rem; }
   .header-6 .header-bottom .menu > li > a {
@@ -2768,7 +2786,7 @@ p {
 .header-6 .header-right .top-menu + .header-dropdown {
   margin-left: 3rem; }
 .header-6 .header-search .search-wrapper-wide {
-  width: 270px;
+  width: 100%;
   border: none; }
 .header-6 .header-search-extended {
   margin-top: 2rem;
@@ -2777,17 +2795,28 @@ p {
     font-size: 1.3rem;
     font-weight: 400;
     color: #222;
-    border-radius: 0;
-    padding: 1.4rem 2.4rem 1.2rem 2rem; }
+    border-radius: 25px;
+    padding: 1.4rem 2.4rem 1.2rem 2rem;
+    border: 1px solid orange;
+  }
+  .header-search{
+    width: 650px;
+  }
   .header-6 .header-search-extended .form-control::placeholder {
     color: #222; }
   .header-6 .header-search-extended .btn {
-    background-color: transparent;
+    background-color: orange;
     color: #666;
-    font-size: 2.6rem;
-    padding-left: 1rem;
+    font-size: 20px;
     max-width: 0;
-    z-index: 1; }
+    z-index: 1;
+  margin-left: -50px;
+  padding: 20px 45px;
+  border-radius: 9px;
+  color:#fff;
+  font-size: 16px;
+}
+
 .header-6 .wishlist-link {
   font-size: 2.8rem; }
   .header-6 .wishlist-link:hover .wishlist-txt, .header-6 .wishlist-link:focus .wishlist-txt {
@@ -2816,14 +2845,14 @@ p {
   color: #fff; }
 .header-6 .btn-primary:hover, .header-6 .btn-primary:focus, .header-6 .btn-primary.focus, .header-6 .btn-primary:not(:disabled):not(.disabled):active, .header-6 .btn-primary:not(:disabled):not(.disabled).active, .header-6 .show > .btn-primary.dropdown-toggle {
   color: #c15454;
-  background-color: transparent; }
+  background-color: orange; }
 
 @media screen and (min-width: 992px) {
   .header-6 .logo {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     top: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); */
     margin: 0; } }
 @media screen and (max-width: 991px) {
   .header-6 .header-bottom {
@@ -2845,10 +2874,10 @@ p {
     display: flex; } }
 @media screen and (max-width: 991px) {
   .header-6 .header-middle .header-left {
-    display: none; }
+    display: block; }
 
   .header-6 .header-middle .header-center {
-    display: block; }
+    display: none; }
 
   .header-6 .logo {
     position: absolute;
@@ -4271,6 +4300,17 @@ a:focus {
     color: #fff;
     background-color: #333;
     border-color: #333; }
+    .user-profile{
+      text-align: center;
+    }
+    .user-profile p{
+      margin-top: 20px;
+    }
+    .user-profile img{
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 50%;
+    }
 
 .btn-outline {
   color: #c96;
@@ -5069,7 +5109,7 @@ a:focus {
     flex: 1;
     justify-content: flex-end; }
   .header-27 .header-center .logo {
-    margin: 3.65rem 0 2.95rem; }
+    margin: 0; }
   .header-27 .main-nav {
     margin: 0; }
   .header-27 .header-middle {
@@ -7799,7 +7839,7 @@ a:focus {
   margin-bottom: 1.3rem; }
 
 .new-price {
-  color: #ef837b;
+  color: orange;
   margin-right: .8rem; }
 
 .old-price {
@@ -10644,7 +10684,7 @@ button:focus {
     border: none; }
     .newsletter-popup-container .input-group .btn {
       min-width: 7rem;
-      background-color: #222;
+      background-color: orange;
       color: #fff;
       border-radius: 0;
       text-transform: uppercase; }
