@@ -1,10 +1,10 @@
 /* Skin demo 6 - index-6.html */
 /* Skin structure */
 ::-moz-selection {
-  background-color: #cc9966; }
+  background-color: #ff5000; }
 
 ::selection {
-  background-color: #cc9966; }
+  background-color: #ff5000; }
 
 .bg-primary {
   background-color: #cc9966 !important; }
@@ -13,7 +13,7 @@
   background-color: #c15454 !important; }
 
 a {
-  color: #cc9966; }
+  color: #ff5000; }
 
 a:hover,
 a:focus {
@@ -64,13 +64,13 @@ a:focus {
 /* generated with mixins */
 .btn-primary {
   color: #fff;
-  background-color: orange;
-  border-color: orange;
+  background-color: #ff5000;
+  border-color: #ff5000;
   box-shadow: none; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #c15454;
-    border-color: #c15454;
+    background-color: #ff5000;
+    border-color: #ff5000;
     box-shadow: none; }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
@@ -496,15 +496,17 @@ a:focus {
 .product.product-7 .btn-product {
   color: #cc9966; }
   .product.product-7 .btn-product span {
-    color: #cc9966; }
+    color: #ff5000;
+  font-size: 16px; }
   .product.product-7 .btn-product:hover, .product.product-7 .btn-product:focus {
-    background-color: orange;
-    border-bottom-color: orange; }
+    background-color: #ff5000;
+    border-bottom-color: #ff5000;
+  font-size: 20px; }
 
 .product.product-8 .new-price {
   color: #cc9966; }
 .product.product-8 .btn-product:before {
-  color: #cc9966; }
+  color: #ff5000; }
 .product.product-8 .btn-product:hover, .product.product-8 .btn-product:focus {
   background-color: #cc9966; }
 

@@ -148,7 +148,9 @@
 /* Product 7 */
 .product.product-7 {
   margin-bottom: 2rem;
-  background-color: #fff; }
+  background-color: #fff;
+  border-radius: 25px;
+}
   .product.product-7 .product-action-vertical {
     transform: translateY(-15px); }
   .product.product-7 .product-body {
@@ -171,7 +173,7 @@
     letter-spacing: 0;
     margin-bottom: 1.2rem;
     font-weight: 500;
-    color: #333; }
+    color: #ff5000; }
   .product.product-7 .new-price {
     font-weight: 400; }
   .product.product-7 .label-sale {
@@ -199,8 +201,9 @@
   border-bottom: .2rem solid #222; }
   .btn-more:hover, .btn-more:focus {
     color: #fff;
-    background-color: #222;
-    border-color: #222; }
+    background-color: #ff5000;
+    border-color: #ff5000;
+  border-radius: 25px; }
 
 .deal .container > .row {
   padding-left: 1rem;
@@ -370,10 +373,10 @@
   margin-bottom: 1.2rem; }
 
 .icon-box-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: .05em;
-  color: #fff; }
+  font-size: 15px;
+  font-weight: 600;;
+  color: #fff;
+word-wrap: break-word; }
 
 .icon-box-content p:last-child {
   font-size: 1.3rem; }
@@ -452,7 +455,7 @@
   text-transform: uppercase; }
 
 .footer {
-  background-color: orange;
+  background-color: #ff5000;
   font-size: 1.3rem;
   font-weight: 400;
   letter-spacing: 0;
@@ -563,7 +566,8 @@ color: #fff; }
 @media screen and (min-width: 1200px) {
   .intro-slider-container,
   .intro-slide {
-    height: 600px; }
+    height: 400px;
+  border-radius: 25px; }
 
   .intro-content .btn {
     min-width: 200px;
